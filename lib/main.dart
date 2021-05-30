@@ -44,12 +44,12 @@ class MyApp extends StatelessWidget {
         listener: (context, state) {},
         builder: (context, state) {
           return MaterialApp(
-            debugShowCheckedModeBanner: false, // 3shan asheel el debug
+            debugShowCheckedModeBanner: false, 
             theme: ThemeData(
               primarySwatch: Colors.deepOrange,
               appBarTheme: AppBarTheme(
                 titleSpacing: 20,
-                backwardsCompatibility: false, // to control status bar
+                backwardsCompatibility: false, 
                 systemOverlayStyle: SystemUiOverlayStyle(
                   statusBarColor: Colors.white,
                   statusBarIconBrightness: Brightness.dark,
