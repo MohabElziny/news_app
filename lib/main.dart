@@ -119,7 +119,7 @@ class MyApp extends StatelessWidget {
             ),
             themeMode:
             AppCubit.get(context).mode ? ThemeMode.dark : ThemeMode.light,
-            home: NewsLayout(), // LoginScreen
+            home: NewsLayout(), 
           );
         },
       ),
